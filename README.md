@@ -12,11 +12,11 @@ In this project, our objective is to develop machine learning models to predict 
 
 We start by loading the Abalone dataset into a pandas DataFrame, omitting the redundant 'id' column to streamline our analysis.
 
-Dimensions of the DataFrame
+### Dimensions of the DataFrame
 
 Examining the dimensions of the DataFrame provides insights into its size and structure, guiding subsequent data processing steps.
 
-Displaying the First 20 Rows
+### Displaying the First 20 Rows
 
 Inspecting the first few rows of the DataFrame offers an initial glimpse into the dataset's content and format.
 
@@ -36,12 +36,12 @@ Partitioning the dataset into training and validation sets facilitates effective
 
 Utilizing the CatBoost Regressor, we implement gradient boosting techniques to predict abalone age. Hyperparameter tuning optimizes model performance, with a focus on minimizing the Root Mean Squared Logarithmic Error (RMSLE).
 
-### Testing
+## Testing
 
-Predictions on Test Data
+### Predictions on Test Data
 
 The trained CatBoost Regressor model is applied to the test dataset to generate predictions, providing valuable insights into abalone age estimation based on physical characteristics.
 
-### Conclusion
+## Conclusion
 
 In this project, we leverage advanced machine learning techniques to predict abalone age accurately. Through meticulous data preprocessing and model training, we achieve robust predictive performance, demonstrating the potential of machine learning in marine biology research and fisheries management.
