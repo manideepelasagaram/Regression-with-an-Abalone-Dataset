@@ -1,8 +1,6 @@
-# Regression-with-an-Abalone-Dataset
-
 # Predicting Abalone Age with Machine Learning
 
-### Introduction
+## Introduction
 
 In this project, our objective is to develop machine learning models to predict the age of abalones based on various physical measurements. Abalones are a type of shellfish, and understanding their age is crucial for marine biology research and fisheries management. By leveraging machine learning algorithms, we aim to accurately estimate abalone age, which can inform sustainable harvesting practices and ecosystem conservation efforts.
 
